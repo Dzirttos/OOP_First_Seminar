@@ -4,11 +4,11 @@ public class Drinks {
         return name;
     }
 
-    public Double getVolume() {
+    public Integer getVolume() {
         return volume;
     }
 
-    public Double getTemperature() {
+    public Integer getTemperature() {
         return temperature;
     }
 
@@ -18,9 +18,9 @@ public class Drinks {
 
     private String name;
 
-    private Double volume;
+    private Integer volume;
 
-    private Double temperature;
+    private Integer temperature;
 
     public void setCost(Integer cost) {
         this.cost = cost;
@@ -28,7 +28,7 @@ public class Drinks {
 
     private Integer cost;
 
-    public Drinks(String name, Double volume, Double temperature, Integer cost) {
+    public Drinks(String name, Integer volume, Integer temperature, Integer cost) {
         this.name = name;
         this.volume = volume;
         this.temperature = temperature;
@@ -38,6 +38,6 @@ public class Drinks {
 
     @Override
     public String toString() {
-        return String.format("%s, %.f, %.f, %d", name, volume, temperature, cost);
+        return String.format("%s, %d ml, %d°C, %d RUR", name, volume, temperature, cost);
     }
 }
