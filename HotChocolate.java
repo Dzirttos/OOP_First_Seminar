@@ -1,4 +1,4 @@
-public class HotChocolate extends Drinks{
+public class HotChocolate extends Drinks {
 
     private final String color;
 
@@ -7,10 +7,10 @@ public class HotChocolate extends Drinks{
         this.color = color;
 
     }
-    
+
     @Override
     public String toString() {
-        
-        return super.toString()+", "+color;
+
+        return super.toString() + ", " + color;
     }
 }
