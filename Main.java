@@ -13,9 +13,9 @@ public class Main {
         coffeeVender.addDrinks(new Drinks("Espresso", 35, 88, 120))
                 .addDrinks(new Drinks("Cappuccino", 180, 70, 180))
                 .addDrinks(new Drinks("Latte", 250, 65, 200))
-                .addDrinks(new Drinks("Tea", 200, 95, 100))
-                .addDrinks(new Drinks("Hot Chocolate", 180, 98, 175))
-                .addDrinks(new Drinks("Butterbeer from Harry Potter", 500, 75, 350));
+                                // .addDrinks(new Drinks("Hot Chocolate", 180, 98, 175))
+                .addDrinks(new Drinks("Butterbeer from Harry Potter", 500, 75, 350))
+                .addDrinks(new Tea("Tea", 200, 95, 100, "Black"));
 
 
 
